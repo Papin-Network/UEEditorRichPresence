@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "VersionName": "0.1.0",
+  "FriendlyName": "UE Editor Rich Presence",
+  "Description": "Rich Presence per l'Editor di Unreal.",
+  "Category": "Editor",
+  "CreatedBy": "Papin Network Games",
+  "Type": "Editor",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Modules": [
+    { "Name": "UEEditorRichPresence", "Type": "Editor", "LoadingPhase": "PostEngineInit" }
+  ]
+}
