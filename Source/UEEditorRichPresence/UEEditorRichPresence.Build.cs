@@ -5,7 +5,6 @@ public class UEEditorRichPresence : ModuleRules
 {
     public UEEditorRichPresence(ReadOnlyTargetRules Target) : base(Target)
     {
-        Type = ModuleType.Editor;
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
